@@ -1,0 +1,35 @@
+.containerdetalhado{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    margin-top: 2vw;
+    padding: 1px;
+    font-family: "Roboto", serif;
+    width: 90vw;
+    align-items: center;
+}
+.titulo5dias{
+    padding: 10px;
+}
+.container5dias{
+    display: flex;
+    justify-content: space-around;
+}
+.containerindividual{
+    background-color: lightblue;
+    padding: 0px;
+    margin: 8px;
+    width: 300px;
+    border-radius: 20px;
+}
+.diaformatado{
+    padding: 10px;
+}
+.descricao{
+    margin-top: -20;
+    font-size: large;
+}
+.temp{
+    margin-top: 15px;
+    margin: 8px;
+    font-size: larger;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body {
+  height: 100%; /* Garante que html e body ocupem 100% da altura */
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove padding padrão */
+  overflow: hidden; /* Remove barras de rolagem */
+  text-align: center;
+}
+.div1 {
+  display: flex; /* Para usar flexbox */
+  flex-direction: column; /* Coloca os elementos em coluna */
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  height: 100vh; /* Garante que ocupa a altura total da tela */
+}
+.txtTitulo{
+  font-size: 50px;
+  font-family: "Roboto", serif;
+  color: white;
+}
+.input{
+  border-radius: 20px 0 0 20px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  width: 250px;
+  margin-top: 30px;
+}
+.btn{
+padding: 8px;
+border-radius: 0 20px 20px 0px;
+border: none;
+outline: none;
+cursor: pointer;
+background: orange;
+color: white;
+font-weight: bold;
+}
+
+.btn:hover{
+  background: rgb(235, 127, 88);
+}

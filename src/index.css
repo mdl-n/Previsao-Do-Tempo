@@ -1,0 +1,8 @@
+body {
+    background: linear-gradient(to right, lightblue ,rgb(77, 143, 230));
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
